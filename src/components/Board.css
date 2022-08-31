@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+.board{
+	
+	background-color: var(--board-background);
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	
+
+}
+
+.input{
+	height: 150px;
+	width: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 700;
+	font-size: 6rem;
+}
+
+.input-1, .input-2, .input-3,
+.input-4,.input-5,.input-6,
+.input-7,.input-8,.input-9
+{
+	border: 5px solid #9c9affa6;
+	margin: 1rem;
+}
